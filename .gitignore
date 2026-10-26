@@ -1,0 +1,35 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Model Weights & Binaries
+*.onnx
+*.onnx_data
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Generated Model Export Artifacts
+models/bert-sst2-onnx/
+
+# Local Caches & Hugging Face
+.cache/
+.huggingface/
+huggingface/
+
+# Environment Variables & Secrets
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
