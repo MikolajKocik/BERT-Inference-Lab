@@ -25,3 +25,8 @@ output [
     dims: [ 2 ]
   }
 ]
+
+# dynamic_batching {
+#     preferred_batch_size: [4, 8]
+#     max_queue_delay_microseconds: 1000
+# }
